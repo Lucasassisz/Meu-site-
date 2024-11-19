@@ -1,0 +1,103 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffadad;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffcad4;
+}
+
+#temas, #pacotes, #depoimentos, #contato {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#temas .tema, #pacotes .pacote {
+    margin: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para o Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #ffadad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8a8a;
+
+}
+/* style.css */
+/* ... outros estilos ... */
+
+.tema, .pacote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tema img, .pacote img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .tema, .pacote {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
